@@ -1,5 +1,5 @@
 # divtag-site
-An official website for the DIVTAG Lilongwe community
+An official website for the DIVTAG Meetup community
 
 # Getting Started
 Get the project onto your device by cloning it from the link below / directly with the following command:
