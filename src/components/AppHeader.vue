@@ -1,7 +1,4 @@
 <template>
-  <div>
-    <img alt="DivTag logo" src="../assets/divtag.jpeg">
-  </div>
   <AppNav/>
 </template>
 

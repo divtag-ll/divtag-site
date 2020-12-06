@@ -1,29 +1,41 @@
 <template>
   <footer class="main-footer">
-    <h3>DivTag Microservices/ API</h3>
+    <h2 class="text-base text-black font-semibold tracking-wide uppercase">DivTag Microservices/ API</h2>
     <ul>
-      <li><a href="#" target="_blank" rel="noopener">Events</a></li>
-      <li><a href="#" target="_blank" rel="noopener">Members</a></li>
-      <li><a href="#" target="_blank" rel="noopener">Blog</a></li>
-      <li><a href="#" target="_blank" rel="noopener">Organization</a></li>
-      <li><a href="#" target="_blank" rel="noopener">Showcase</a></li>
+      <li>
+        <a href="#" class="font-medium text-green-600 hover:text-green-500"  target="_blank" rel="noopener">
+          Events</a>
+      </li>
+      <li>
+        <a href="#" class="font-medium text-green-600 hover:text-green-500"  target="_blank" rel="noopener">
+          Members</a>
+      </li>
+      <li>
+        <a href="#" class="font-medium text-green-600 hover:text-green-500"  target="_blank" rel="noopener">
+          Blog</a>
+      </li>
+      <li>
+        <a href="#" class="font-medium text-green-600 hover:text-green-500"  target="_blank" rel="noopener">
+          Organization</a>
+      </li>
+      <li><a href="#" class="font-medium text-green-600 hover:text-green-500"  target="_blank" rel="noopener">
+        Showcase</a>
+      </li>
     </ul>
     <p>
       <!-- TODO: Add github visibility -->
-      <a href="https://github.com/divtag-ll" title="GitHub" class="social-icon inverted" data-v-2dac9808>
-        <i class="fa fa-github" data-v-2dac9808></i>
-        <span class="sr-only" data-v-2dac9808>GitHub</span>
+      <a href="https://github.com/divtag-ll" title="GitHub">
+        <i class="fa fa-github"></i>
+        <span class="sr-only">GitHub</span>
       </a>
       &nbsp;
       <!-- TODO: Add medium visibility for DivTAG members to add blog posts/ tutorials -->
-      <a href="#" title="Medium" class="social-icon inverted" data-v-2dac9808>
-        <i class="fa fa-medium" data-v-2dac9808></i>
-        <span class="sr-only" data-v-2dac9808>Medium</span>
+      <a href="#" title="Medium">
+        <i class="fa fa-medium"></i>
+        <span class="sr-only">Medium</span>
       </a>
     </p>
     <p class="copyright">
-      Released under the <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT License</a>
-      <br>
       Copyright © 2020 DivTag
     </p>
   </footer>

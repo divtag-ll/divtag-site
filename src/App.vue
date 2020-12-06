@@ -1,5 +1,7 @@
 <template>
-  <AppHeader />
+  <img class="inline-block align-middle pb-8" alt="DivTag logo" src="./assets/divtag.jpeg">
+  <!-- TODO: Modify AppHeader component then uncomment the line below -->
+<!--  <AppHeader />-->
   <HomePage />
   <AppFooter/>
 </template>
@@ -7,12 +9,10 @@
 <script>
 import HomePage from './components/HomePage.vue'
 import AppFooter from "@/components/AppFooter";
-import AppHeader from "@/components/AppHeader";
 
 export default {
   name: 'App',
   components: {
-    AppHeader,
     HomePage,
     AppFooter
   }
@@ -21,11 +21,11 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  line-height: 1.5;
+  color: #555555;
   margin-top: 60px;
 }
 
