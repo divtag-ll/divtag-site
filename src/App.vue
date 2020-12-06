@@ -1,18 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/divtag.jpeg">
+  <AppHeader />
   <HomePage />
-  <Footer/>
+  <AppFooter/>
 </template>
 
 <script>
 import HomePage from './components/HomePage.vue'
-import Footer from "@/components/Footer";
+import AppFooter from "@/components/AppFooter";
+import AppHeader from "@/components/AppHeader";
 
 export default {
   name: 'App',
   components: {
+    AppHeader,
     HomePage,
-    Footer
+    AppFooter
   }
 }
 </script>
