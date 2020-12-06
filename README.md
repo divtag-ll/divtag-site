@@ -1,5 +1,10 @@
 # DivTag Site
 
+## Prerequisites/ Requirements
+
+    - VueJS 3
+    - 
+
 ## Getting Started
 Get the project onto your device by cloning it from the link below / directly with the following command:
 
@@ -11,7 +16,7 @@ Get the project onto your device by cloning it from the link below / directly wi
 
     git clone git@github.com:divtag-ll/divtag-site.git 
 
-# Get in The Project's root directory
+## Get in The Project's root directory
 
 Start working.
 
